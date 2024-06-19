@@ -1,0 +1,5 @@
+def round_numbers(numbers_str):
+    return [round(float(num)) for num in numbers_str]
+
+numbers_str = input().split()
+print(round_numbers(numbers_str))
