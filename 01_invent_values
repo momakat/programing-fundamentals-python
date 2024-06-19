@@ -1,0 +1,6 @@
+my_list = input().split()
+opposit_numbers = []
+for number in my_list:
+    opposit_number = -int(number)
+    opposit_numbers.append(opposit_number)
+print(opposit_numbers)
