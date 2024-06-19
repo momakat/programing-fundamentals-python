@@ -1,0 +1,16 @@
+def grade_to_word(grades):
+    if 6.00 >= grades >= 5.50:
+        return "Excellent!"
+    elif 5.49 >= grades >= 4.50:
+        return "Very Good"
+    elif 4.49 >= grades >= 3.50:
+        return "Good"
+    elif 3.49 >= grades >= 3.00:
+        return "Poor"
+    elif 2.99 >= grades >= 2.00:
+        return "Fail"
+
+grades = float(input())
+result = grade_to_word(grades)
+
+print(result)
