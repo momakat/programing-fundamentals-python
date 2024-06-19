@@ -1,0 +1,19 @@
+def calculate_result(operator, number1, number2):
+    if operator == 'add':
+        return number1 + number2
+    elif operator == 'subtract':
+        return number1 - number2
+    elif operator == 'multiply':
+        return number1 * number2
+    elif operator == 'divide':
+        return number1 / number2
+    else:
+        return 'Invalid operator'
+
+
+operator = input()
+number1 = int(input())
+number2 = int(input())
+result = calculate_result(operator, number1, number2)
+
+print(int(result))
