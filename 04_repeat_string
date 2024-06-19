@@ -1,0 +1,8 @@
+# string_input = str(input())
+# counter = int(input())
+# 
+# for i in range(counter):
+#     print(''.join(string_input),end='')
+
+x = lambda a,b: a*b
+print(x(str(input()),int(input())))
