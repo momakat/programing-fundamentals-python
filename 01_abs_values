@@ -1,0 +1,4 @@
+numbers = input().split()
+numbers = [abs(float(x)) for x in numbers]
+
+print(numbers)
