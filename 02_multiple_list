@@ -1,0 +1,10 @@
+factor = int(input())
+count = int(input())
+factor2 = 0
+my_list = []
+
+for i in range(count):
+    factor2 += factor
+    my_list.append(factor2)
+
+print(my_list)
