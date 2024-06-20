@@ -1,0 +1,12 @@
+def smallest_in_list(list: list) -> int:
+    return min(list)
+
+first_num = int(input())
+second_num = int(input())
+third_num = int(input())
+
+list1 = [first_num, second_num, third_num]
+
+smallest_in_list = smallest_in_list(list1)
+
+print(smallest_in_list)
