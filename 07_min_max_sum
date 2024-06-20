@@ -1,0 +1,25 @@
+def smallest_in_list(some_list: list) -> int:
+    return min(some_list)
+
+
+def biggest_in_list(some_list: list) -> int:
+    return max(some_list)
+
+
+def sum_of_list(some_list: list) -> int:
+    return sum(some_list)
+
+
+input_numbers = input().split()
+numbers = []
+
+for number in input_numbers:
+    numbers.append(int(number))
+
+minimum = smallest_in_list(numbers)
+maximum = biggest_in_list(numbers)
+aggregate = sum_of_list(numbers)
+
+print(f"The minimum number is {minimum}")
+print(f"The maximum number is {maximum}")
+print(f"The sum number is: {aggregate}")
