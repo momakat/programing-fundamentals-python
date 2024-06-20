@@ -1,0 +1,24 @@
+# def filter_even_numbers(some_list: list) -> list:
+#     return [number for number in some_list if number % 2 == 0]
+# 
+# input_numbers = input().split()
+# numbers = []
+# 
+# for number in input_numbers:
+#     numbers.append(int(number))
+# 
+# result = filter_even_numbers(numbers)
+# print(result)
+
+def is_even(x):
+    return x % 2 == 0
+
+
+input_numbers = input().split()
+numbers = []
+
+for number in input_numbers:
+    numbers.append(int(number))
+
+result = list(filter(is_even, numbers))
+print(result)
