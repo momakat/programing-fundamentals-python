@@ -1,0 +1,12 @@
+def sorted_list(list):
+    return sorted(list, key=lambda ascending: ascending)
+
+input_numbers = input().split()
+numbers = []
+
+for number in input_numbers:
+    numbers.append(int(number))
+
+result = sorted_list(numbers)
+#print(numbers)
+print(result)
