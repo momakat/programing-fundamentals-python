@@ -1,0 +1,21 @@
+def sum_numbers(some_list: list) -> int:
+    return some_list[0] + some_list[1]
+
+
+def substract(some_list: list) -> int:
+    return sum_numbers(some_list) - some_list[2]
+
+
+def add_and_subtract(some_list: list) -> int:
+     return substract(some_list)
+
+
+first_num = int(input())
+second_num = int(input())
+third_num = int(input())
+
+list1 = [first_num, second_num, third_num]
+
+# print(sum_numbers(list1))
+# print(substract(list1))
+print(add_and_subtract(list1))
